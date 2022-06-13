@@ -1,0 +1,24 @@
+
+
+.dates {
+    font-family: sans-serif;
+    text-align: center;
+}
+.container-main  .btn {
+    background-color: rgb(180, 154, 8);
+    border-style: none;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 3rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: rgba(238, 238, 238, 0.548);
+}

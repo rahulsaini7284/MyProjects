@@ -1,0 +1,9 @@
+.dashboard{
+    background-color: rgb(238, 225, 225);
+    border-bottom-left-radius: 10rem;
+}
+  
+
+.dashboard .m-navbar{
+   margin-bottom: 2rem;
+}

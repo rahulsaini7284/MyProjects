@@ -1,0 +1,9 @@
+.form-main{
+    width: 70%;
+    margin: auto;
+    padding-top: 2rem;
+    color:rgb(27, 25, 25);
+}
+.form-Main label{
+    color: black !important;
+}

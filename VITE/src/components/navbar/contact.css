@@ -1,0 +1,18 @@
+.Form-main{
+    width: 70%;
+  margin: auto;
+  padding-top: 2rem;
+}
+.Form-main .btn{
+    
+            background-color: rgb(180, 154, 8);
+            border-style: none;
+            font-family: "Nunito", Arial, sans-serif;
+            font-size: 1rem
+            ;
+            font-weight: 600;
+            padding: 15px 3rem;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+        
+}

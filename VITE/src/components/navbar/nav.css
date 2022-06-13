@@ -1,0 +1,87 @@
+
+
+.nav-home{
+    background-image: url('../../photos/home1.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.mai .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid rgba(220, 220, 220, 0.274);
+    box-sizing: border-box;
+
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+ .nav-links a{
+    color: gainsboro;
+    text-decoration: none;
+        font-family: "Jost", sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        position: relative;
+        letter-spacing: 1px;
+}
+.nav-links a:after{
+    content: "";
+    position:absolute;
+    background-color: gainsboro;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -39px;
+    transition: 0.4s;
+    border-radius: 4px;   
+}
+.nav-links a:hover{
+    color: gainsboro;
+}
+.nav-links a:active{
+    width: 100%;
+}
+.nav-links a:hover:after{
+    width: 100%;
+  
+}
+.nav-login{
+    display: flex;
+    gap: 3rem;
+}
+.nav-container .nav-login a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Jost", sans-serif;
+        font-size: 1.1rem;
+        font-weight: 500;
+        position: relative;
+            letter-spacing: 1px;
+}
+.nav-login a:after {
+    content: "";
+    position: absolute;
+    background-color: gainsboro;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -39px;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.nav-login a:hover {
+    color: gainsboro;
+}
+
+.nav-login a:hover:after {
+    width: 100%;
+  
+}
+.nav-container .nav-links img{
+  height: 4rem;
+}

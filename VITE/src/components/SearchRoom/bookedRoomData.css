@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Old+Standard+TT&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+.inCenter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: small;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: max-content;
+}
+.cart {
+  position: absolute;
+  left: 13px;
+  top: 7px;
+  text-align: center;
+  border-radius: 7px;
+  width: 18px;
+  height: 18px;
+  background-color: #bea53685;
+  border: 1px solid rgb(242, 255, 62);
+  font-weight: 400;
+  color: #fafffb;
+  line-height: 16px;
+  font-size: 12px;
+}
+.addToCart {
+  color: rgb(255, 129, 10);
+  box-sizing: content-box;
+  font-size: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+.product-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+ background-color: rgb(230, 213, 235);
+font-family: 'Jost', sans-serif;
+ height: 5rem;
+ border-radius: 10px;
+}
+.table-Header{
+    display: flex;
+    flex-direction: row;
+    background-color: crimson;
+    height: 4rem;
+    border-radius: 8px;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.product-data .product-image {
+  height: 120px;
+  width: 170px;
+  border-radius: 5px;
+}
+.product-data .p-name,
+.p-color,
+.p-price,
+.p-stock {
+  display: flex;
+  align-items: center;
+}
+.product-data .p-button {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.product-data .p-button .delete {
+  color: rgb(179, 1, 1);
+  font-size: 1.7rem;
+  filter: drop-shadow(0px 0px 2px rgb(235, 12, 12));
+  margin-right: 1rem;
+}
+.product-data .p-button .delete:hover {
+  opacity: 0.7;
+}
+.product-data .p-button .edit {
+  color: orangered;
+  font-size: 1.7rem;
+  filter: drop-shadow(1px 1px 3px rgb(255, 145, 0));
+}
+.product-data .p-button .edit:hover {
+  opacity: 0.7;
+}
+.product-data .p-button .add-to-cart {
+  color: rgb(130, 6, 179);
+  font-size: 1.5rem;
+  filter: drop-shadow(1px 1px 3px rgb(119, 0, 255));
+}
+.product-data .p-button .add-to-cart:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,76 @@
+.Main .card-body{
+    width:fit-content;
+    background-color: rgb(56, 76, 102);
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex: none;
+}
+.Main .card-body .img-div img{
+    border-radius: 10px;
+    height: 300px;
+    width: 340px;
+}
+.Main .card-body .roomName .child-1{
+    display: flex;
+    justify-content: space-between;
+}
+.Main .card-body .roomName .child-2{
+    display: flex;
+    justify-content: space-between;
+}
+.Main .card-body .roomName h3{
+    margin:1rem 0 ;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+.Main .card-body .roomName p{
+    margin:1rem 0;
+    color: white;
+    opacity: 0.7;
+    font-family: 'Jost', sans-serif;
+}
+.Main .card-body .roomName .child-1{
+    margin:1rem 0;
+}
+.Main .card-body .roomName .child-1 :last-child{
+    color: whitesmoke;
+    font-family: 'Jost', sans-serif;
+}
+.Main .card-body .roomName .child-2 .link-1 :first-child{
+    background-color: blue;
+    border-style: none;
+    color: whitesmoke;
+box-shadow: 0px 0px 10px 2px rgb(18, 10, 231);
+font-family: 'Jost', sans-serif;
+}
+.Main .card-body .roomName .child-2 :last-child{
+    background-color: rgb(255, 0, 128);
+    border-style: none;
+    color: whitesmoke;
+    box-shadow: 0px 0px 10px 2px rgb(255, 0, 128);
+    font-family: 'Jost', sans-serif;
+}
+.Main .card-body .roomName .child-2 :last-child:hover{
+    opacity: 0.7;
+}
+.Main .card-body .roomName .child-2 :first-child:hover{
+    opacity: 0.7;
+}
+.Main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem auto;
+    justify-content: center;
+    /* flex-wrap:wrap; */
+}
+.searchBar{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.searchBar input{
+    width: 70%;
+}

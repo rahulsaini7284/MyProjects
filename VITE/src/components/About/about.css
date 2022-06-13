@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Old+Standard+TT&display=swap');
+.main  .card-1{
+    background-color: whitesmoke;
+    /* width: 18rem; */
+    height: fit-content;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-radius: 10px;
+    grid-area: first;
+    box-shadow:inset -1px 0px 25px -5px rgba(0, 0, 0, 1);
+  
+}
+.main .card-2{
+    background-image: url(/src//photos/gettyimages-1135402190-612x612.jpg);
+    width: 80%;
+    height: 80%;
+    background-repeat: no-repeat;
+    /* padding: 2rem 4rem; */
+    grid-area: second;
+    border-radius: 1rem ;
+    box-shadow: -1px 0px 25px -5px rgba(0, 0, 0, 1);
+}
+.main .card-3{
+    background-image: url(/src//photos/istockphoto-1215491349-612x612.jpg);
+        /* width: 21rem; */
+    
+        background-size:cover;
+        background-repeat: no-repeat;
+        /* padding: 2rem 4rem; */
+        grid-area: third;
+        width: 80%;
+            height: 80%;
+            border-radius: 1rem;
+            box-shadow: -1px 0px 25px -5px rgba(0, 0, 0, 1);
+}
+.main .div-1 .card-1 h3{
+font-family: 'Jost', sans-serif;
+    margin: 1rem 0;
+}
+.main .div-1 .card-1 p{
+        /* font-family: "Nunito", Arial, sans-serif; */
+        font-size:1rem;
+       
+        color: black;
+        opacity: 0.7;
+      
+    font-family: 'Jost', sans-serif;
+}
+.main .div-1 .card-1:first-child{
+    font-size: 3rem;
+}
+.main .div-1{
+    display: grid;
+    grid-template:18rem 18rem/18rem 18rem;
+    grid-template-areas:
+     "first second"
+    "third fourth";
+    place-items: center;
+}
+.main .div-1 .card-4{
+    background-color: whitesmoke;
+        width: 18rem;
+        height: fit-content;
+        padding: 2rem 1rem;
+        text-align: center;
+        border-radius: 10px;
+        grid-area: fourth;
+        box-shadow:inset -1px 0px 25px -5px rgba(0, 0, 0, 1);
+}
+.main .div-1 .card-4 h3 {
+font-family: 'Jost', sans-serif;
+    margin: 1rem 0;
+}
+
+.main .div-1 .card-4 p {
+font-family: 'Jost', sans-serif;
+    font-size: 1rem;
+    opacity: 0.7;
+    color: black;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    gap: 3rem;
+}
+.main .div-2 h6{
+    color: rgb(235, 200, 5);
+    margin-top:3rem;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main .div-2 h1{
+font-family: 'Jost', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    padding-right: 8rem;
+    margin: 2rem 0;
+    color: rgb(66, 55, 55);
+}
+.main .div-2 p{
+        font-family: 'Jost', sans-serif;
+        font-size: 1rem;
+        padding-right: 9rem;
+        line-height: 2rem;
+        opacity: 0.7;
+        margin-bottom: 2rem;
+        color: rgb(41, 37, 37);
+}
+.main .div-2 Button{
+    background-color: rgb(180, 154, 8);
+    border-style: none;
+    font-family: "Nunito", Arial, sans-serif;
+    font-size:12px ;
+    font-weight: 600;
+    padding:15px 3rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
